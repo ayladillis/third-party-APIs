@@ -39,9 +39,13 @@ A: the text will be saved into local storage
 Q: how will the text remain saved on the page after it is refreshed?
 A: using the sessionStorage.getItem function to save the text
 
-1. display current date (Ayla)
+1. display current date 
 2. present timeblocks in html via js 
 3. shade time blocks based on past, present, future 
 4. click time block to enter text event 
 5. save the event for that timeblock
 6. when page refreshes the saved events persist. local storage
+
+how to change the color for different timeblocks 
+along with if else statements
+var hour = moment().format("h");
