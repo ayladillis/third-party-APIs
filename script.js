@@ -1,12 +1,13 @@
+var currentDay = document.getElementById("#currentDay");
+var userInput = document.getElementById("#userInput");
 
+
+// current date
 $(document).ready(function () {
 $("#currentDay").text(moment().format("dddd, MMMM Do YYYY"));
 
 })
-
-//how to change the color for different timeblocks 
-//var hour = moment().format("h");
-
+ // save button
 $(".saveBtn").on("click", function(event){
     event.preventDefault();
     var chosenBtn = event.target.data
@@ -15,6 +16,12 @@ $(".saveBtn").on("click", function(event){
 //     var
 //     var userInput = $("#user-input").value()
 //     localStorage.setItem("user-input", stringify(userInput));
+
+
+// change timeblock colors depending on time
+var hour = moment().format("h");
+ 
+
 
 })
 

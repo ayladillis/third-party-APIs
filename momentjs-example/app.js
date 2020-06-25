@@ -65,7 +65,9 @@ $(document).ready(function () {
 
         let date = moment().dayOfYear()
         let yearMils = date * 24 * 60 * 60 * 1000
+
         let todayMils = moment().hour() * 60 * 60 * 1000;
+        
         let thisMilsSecond = moment().second() * 1000;
         let thisMils = moment().millisecond();
 
