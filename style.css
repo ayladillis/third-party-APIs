@@ -2,10 +2,11 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   line-height: 1;
+  background-color: lightpink;
 }
 
 textarea{
-  background: transparent;
+  background: whitesmoke;
   border: none;
   resize: none;
   color: #000000;
@@ -14,6 +15,7 @@ textarea{
 }
 
 .jumbotron {
+  font-family: cursive;
   text-align: center;
   background-color: transparent;
   color: black;
