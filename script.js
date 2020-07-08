@@ -5,9 +5,12 @@ $("#currentDay").text(moment().format("dddd, MMMM Do YYYY"));
 })
 
 //change timeblock background colors based on time
-// var hour = moment().format("H");
-// console.log("hour = ", hour);
-// var dataIndex = document.getElementById("data-index")
+var hour = moment().format("H");
+console.log("hour = ", hour);
+// var dataIndex = document.getElementById("data-index");
+// let hour = 20;
+
+// if (hour >= 9)
 
 // var changeTimeBlockColor = function(){
 // if ( dataIndex = hour){

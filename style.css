@@ -1,8 +1,7 @@
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Noto Serif', serif;
   font-size: 16px;
   line-height: 1;
-  background-color: lightpink;
 }
 
 textarea{
@@ -15,12 +14,13 @@ textarea{
 }
 
 .jumbotron {
-  font-family: cursive;
+  font-family: 'Noto Serif', serif;
   text-align: center;
-  background-color: transparent;
+  background-color: lightpink;
   color: black;
   border-radius: 0;
-  border-bottom: 10px solid black;
+  border-bottom: 5px solid black;
+  height: 7cm;
 }
 
 .description{
@@ -66,7 +66,7 @@ textarea{
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
   background-color: lightblue;
-  color: white;
+  color: black;
 }
 
 .saveBtn i:hover {
