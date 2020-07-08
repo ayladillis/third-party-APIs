@@ -33,9 +33,10 @@ Then open in your preferred text editor:
 - [visual studio code](https://code.visualstudio.com/) 
 
 ## Code Highlights
-
+Function to display the current day and time 
 ![Web screenshot](screenshot1.png)
 
+Using json.parse to parse the user input before entering it into local storage then stringify to take it back out. 
 ![Web screenshot](screenshot2.png)
 
 ## Technology
