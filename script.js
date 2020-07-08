@@ -7,23 +7,6 @@ $("#currentDay").text(moment().format("dddd, MMMM Do YYYY"));
 //change timeblock background colors based on time
 var hour = moment().format("H");
 console.log("hour = ", hour);
-// var dataIndex = document.getElementById("data-index");
-// let hour = 20;
-
-// if (hour >= 9)
-
-// var changeTimeBlockColor = function(){
-// if ( dataIndex = hour){
-// userInput0.style$("#present");
-// }else{
-//     dataIndex < hour.style$("#future");
-// }
-// return changeTimeBlockColor;
-// };
-
-//if statement with data-index 
-//find out what data index number is 
-//assign to time bar
 
 
 //time block ONE local storage

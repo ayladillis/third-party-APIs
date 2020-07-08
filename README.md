@@ -2,12 +2,14 @@
 
 The Day Planner implements JQuery in javascript, saving text to local stroage and then pulling it back out of local storage when the browser is refreshed.
 
+![Web screenshot](screenshot3.png)
+
 
 ## Table of Content
 - Objective
 - Deploy Link
 - Getting Started
-- Requierments 
+- Code Highlights
 - Author 
 
 ## Objective 
@@ -29,6 +31,12 @@ Then open in your preferred text editor:
 - [vim](https://www.vim.org/) 
 - [emmacs](https://www.gnu.org/software/emacs/)
 - [visual studio code](https://code.visualstudio.com/) 
+
+## Code Highlights
+
+![Web screenshot](screenshot1.png)
+
+![Web screenshot](screenshot2.png)
 
 ## Technology
 * [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
